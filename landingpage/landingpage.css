@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav1 {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 i {
+    margin: 0px 5px;
+}
+
+.h-text a {
+
+    color: white;
+    padding: 5px 10px;
+    background-color: chocolate;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav1 P {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-left: 500px;
+}
+
+.nav2 {
+    width: 100%;
+    height: 80px;
+    background: rgb(189, 181, 213);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.menu a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('TRAVEL.jpg');
+    background-size: 100% 100%;
+}
+
+.h-text {
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h-text h1 {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-text span {
+    color: chocolate;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.h-text p {
+    color: chocolate;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+
+}
+
+
+.about h1 {
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.about {
+    background-color: rgb(189, 181, 213);
+
+}
+
+
+.about img {
+    height: 70%;
+    width: 30%;
+    margin: 20px;
+
+
+}
+
+.about p {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.more {
+    width: 100%;
+    background-color: rgb(189, 181, 213);
+
+}
+
+.more h1 {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.more p {
+    font-style: oblique;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
